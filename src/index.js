@@ -69,7 +69,7 @@ function search(event) {
   let searchInput, city;
 
   if (event === undefined) {
-    city = "Vancouver";
+    city = "Bucharest";
   } else {
     event.preventDefault();
     searchInput = document.querySelector("#search-city").value;

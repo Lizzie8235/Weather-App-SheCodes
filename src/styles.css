@@ -1,6 +1,16 @@
+#backgroundVideo {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
 .content {
   display: block;
   border-radius: 30px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 20%);
   margin-top: 5%;
   margin-right: 15%;
   margin-left: 15%;
