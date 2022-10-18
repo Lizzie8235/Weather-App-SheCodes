@@ -1,0 +1,168 @@
+.content {
+  display: block;
+  border-radius: 30px;
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+  padding: 65px;
+  border: none;
+  background: #d1d5fa;
+  color: #5c6898;
+}
+form {
+  text-align: center;
+}
+.search-city {
+  border-radius: 20px;
+  border: none;
+  width: 50%;
+  height: 35px;
+  padding-left: 2%;
+  outline-color: #5c6898;
+  font-family: "Hind", sans-serif;
+}
+.search {
+  border-radius: 20px;
+  border: none;
+  width: 10%;
+  height: 35px;
+  margin-left: 10px;
+  color: #5c6898;
+  background-color: white;
+  font-family: "Hind", sans-serif;
+  font-weight: 100;
+  transition: all 150ms ease-in-out;
+}
+.search:hover {
+  color: white;
+  background-color: #0f0326;
+}
+.current-location {
+  border-radius: 20px;
+  border: none;
+  width: 10%;
+  height: 35px;
+  margin-left: 10px;
+  color: white;
+  background-color: #0f0326;
+  font-family: "Hind", sans-serif;
+  font-weight: 100;
+  transition: all 150ms ease-in-out;
+}
+.current-location:hover {
+  color: #5c6898;
+  background-color: white;
+}
+.city {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 50px;
+  color: #0f0326;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  opacity: 80%;
+}
+.date {
+  text-align: center;
+  font-size: 17px;
+  margin: 15px;
+  font-family: "Hind", sans-serif;
+}
+
+.today-icon {
+  font-size: 100px;
+  text-align: right;
+  color: #0f0326;
+  opacity: 80%;
+}
+#display-temp {
+  font-size: 100px;
+  color: #0f0326;
+  font-family: "Montserrat", sans-serif;
+  opacity: 80%;
+}
+.link-c {
+  font-size: 20px;
+  color: #0f0326;
+  font-family: "Montserrat", sans-serif;
+  opacity: 80%;
+  margin-bottom: 45px;
+}
+.separate {
+  font-size: 20px;
+  color: #0f0326;
+  font-family: "Montserrat", sans-serif;
+  opacity: 80%;
+  margin-bottom: 48px;
+}
+.link-f {
+  font-size: 20px;
+  color: #0f0326;
+  font-family: "Montserrat", sans-serif;
+  opacity: 80%;
+  margin-bottom: 45px;
+}
+.today-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: "Hind", sans-serif;
+}
+#forecast-desc {
+  font-weight: bold;
+}
+#forecast-desc:first-letter {
+  text-transform: capitalize;
+}
+.col-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-deck {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+.card.card-custom {
+  border-radius: 30px;
+  border: none;
+  transition: transform 0.25s;
+  width: 60x;
+  height: 170px;
+  align-items: center;
+}
+.card.card-custom:hover {
+  transform: scale(1.1);
+}
+#forecast-body {
+  padding: 0%;
+}
+.weather-icon {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 22px;
+}
+.card-title {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Hind", sans-serif;
+}
+.temp-wrapper {
+  text-align: center;
+  font-size: 17px;
+  font-family: "Hind", sans-serif;
+  margin-bottom: 20px;
+}
+.temp.temp-high {
+  font-weight: bold;
+}
+.disable-link {
+  pointer-events: none;
+}
+.code-source-link {
+  display: block;
+  margin-left: 15%;
+}
