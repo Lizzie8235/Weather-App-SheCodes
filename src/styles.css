@@ -12,12 +12,11 @@
   border-radius: 30px;
   box-shadow: 0 0 20px rgb(0 0 0 / 20%);
   margin-top: 5%;
-  margin-right: 15%;
-  margin-left: 15%;
-  padding: 65px;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding: 20px;
   border: none;
-  background: #d1d5fa;
-  color: #5c6898;
+  background-color: rgba(252, 252, 252, 0.8);
 }
 form {
   text-align: center;

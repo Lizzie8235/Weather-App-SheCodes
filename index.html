@@ -25,6 +25,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0/axios.min.js"></script>
   </head>
   <body>
+    <video
+      src="images/media.mp4"
+      autoplay
+      muted
+      loop
+      id="backgroundVideo"
+    ></video>
     <div class="content">
       <form id="search-form">
         <input
@@ -34,7 +41,7 @@
           placeholder="Search by city"
         />
         <button class="search" type="submit">Search</button>
-        <button class="current-location">My location</button>
+        <button class="current-location">Current</button>
       </form>
       <h1 class="city"></h1>
       <h2 class="date"></h2>
@@ -43,6 +50,7 @@
           <div class="col-2" id="main-info">
             <img src="" alt="cloudy" id="icon" class="weather-icon" />
           </div>
+
           <div class="col-2" id="main-info">
             <h3 class="temp" id="display-temp"></h3>
             <a href="#" class="link-c disable-link">°C</a>
