@@ -173,5 +173,6 @@ form {
 }
 .code-source-link {
   display: block;
-  margin-left: 15%;
+
+  text-align: center;
 }
